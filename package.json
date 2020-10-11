@@ -1,0 +1,36 @@
+{
+  "name": "@lukaszbieniek/commitlint-config",
+  "version": "0.1.0",
+  "description": "Shareable commitlint config",
+  "license": "MIT",
+  "author": "Łukasz Bieniek <lukasz.bieniek@hotmail.com>",
+  "homepage": "https://github.com/lukaszbieniek/commitlint-config#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukaszbieniek/commitlint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lukaszbieniek/commitlint-config/issues"
+  },
+  "main": "index.js",
+  "files": [
+    "/index.js"
+  ],
+  "keywords": [
+    "commitlint",
+    "config"
+  ],
+  "peerDependencies": {
+    "@commitlint/cli": "^11.0.0"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "^11.0.0"
+  },
+  "devDependencies": {
+    "@lukaszbieniek/semantic-release-config": "^1.0.0",
+    "semantic-release": "^17.1.2"
+  }
+}
