@@ -21,10 +21,10 @@
     "config"
   ],
   "peerDependencies": {
-    "@commitlint/cli": "^11.0.0"
+    "@commitlint/cli": "^21.2.2"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^11.0.0"
+    "@commitlint/config-conventional": "^21.2.2"
   },
   "devDependencies": {
     "@lukaszbieniek/semantic-release-config": "^2.0.0",
